@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_back"
+    tools:context=".Android">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_marginTop="35sp"
+        android:textSize="40sp"
+        android:textStyle="bold"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android Devlopment"
+        android:textAlignment="center"/>
+
+
+    
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_marginTop="1dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="180sp"
+            android:layout_height="180sp"
+            android:id="@+id/kt"
+            android:layout_margin="20sp"
+            android:backgroundTint="#666666"
+            app:cardCornerRadius="180sp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kotlin"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+
+                android:textSize="30sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+        android:layout_width="180sp"
+        android:layout_height="180sp"
+        app:cardCornerRadius="180sp"
+            android:id="@+id/jv"
+        android:backgroundTint="#ff9900"
+        android:layout_marginTop="20sp">
+        <TextView
+            android:id="@+id/textView2"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:text="JAVA" />
+    </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="1dp"
+    android:orientation="horizontal">
+    <androidx.cardview.widget.CardView
+        android:layout_width="180sp"
+        android:layout_height="180sp"
+        android:id="@+id/andr"
+        app:cardCornerRadius="180sp"
+        android:backgroundTint="@color/black"
+        android:layout_margin="20sp"
+        >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Studio"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="180sp"
+        android:layout_height="180sp"
+        android:id="@+id/itel"
+        android:backgroundTint="@color/Rad"
+        android:layout_marginTop="20sp"
+        app:cardCornerRadius="180sp"
+        >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intellij IDEA"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+</LinearLayout>
